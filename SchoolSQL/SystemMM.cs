@@ -1,6 +1,6 @@
 namespace SchoolSQL
 {
-    public partial class SystemMM : Form
+    private partial class SystemMM : Form
     {
         public SystemMM()
         {

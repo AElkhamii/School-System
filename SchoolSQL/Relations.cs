@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SchoolSQL
 {
-    public partial class Students : UserControl
+    public partial class Relations : UserControl
     {
-        public Students()
+        public Relations()
         {
             InitializeComponent();
         }

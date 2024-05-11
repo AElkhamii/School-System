@@ -28,47 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TeachersBTN = new Button();
-            StudentsBTN = new Button();
-            SubjectsBTN = new Button();
+            MMTeachersBTN = new Button();
+            MMStudentsBTN = new Button();
+            MMSubjectsBTN = new Button();
             MainLable = new Label();
+            MMRelationBTN = new Button();
+            MMExitBTN = new Button();
             SuspendLayout();
             // 
-            // TeachersBTN
+            // MMTeachersBTN
             // 
-            TeachersBTN.Location = new Point(225, 202);
-            TeachersBTN.Name = "TeachersBTN";
-            TeachersBTN.Size = new Size(190, 41);
-            TeachersBTN.TabIndex = 0;
-            TeachersBTN.Text = "Teachers";
-            TeachersBTN.UseVisualStyleBackColor = true;
-            TeachersBTN.UseWaitCursor = true;
+            MMTeachersBTN.Location = new Point(222, 143);
+            MMTeachersBTN.Name = "MMTeachersBTN";
+            MMTeachersBTN.Size = new Size(190, 41);
+            MMTeachersBTN.TabIndex = 0;
+            MMTeachersBTN.Text = "Teachers";
+            MMTeachersBTN.UseVisualStyleBackColor = true;
+            MMTeachersBTN.UseWaitCursor = true;
+            MMTeachersBTN.Click += MMTeachersBTN_Click;
             // 
-            // StudentsBTN
+            // MMStudentsBTN
             // 
-            StudentsBTN.Location = new Point(225, 264);
-            StudentsBTN.Name = "StudentsBTN";
-            StudentsBTN.Size = new Size(190, 41);
-            StudentsBTN.TabIndex = 0;
-            StudentsBTN.Text = "Students";
-            StudentsBTN.UseVisualStyleBackColor = true;
-            StudentsBTN.UseWaitCursor = true;
+            MMStudentsBTN.Location = new Point(222, 205);
+            MMStudentsBTN.Name = "MMStudentsBTN";
+            MMStudentsBTN.Size = new Size(190, 41);
+            MMStudentsBTN.TabIndex = 0;
+            MMStudentsBTN.Text = "Students";
+            MMStudentsBTN.UseVisualStyleBackColor = true;
+            MMStudentsBTN.UseWaitCursor = true;
+            MMStudentsBTN.Click += MMStudentsBTN_Click;
             // 
-            // SubjectsBTN
+            // MMSubjectsBTN
             // 
-            SubjectsBTN.Location = new Point(225, 325);
-            SubjectsBTN.Name = "SubjectsBTN";
-            SubjectsBTN.Size = new Size(190, 41);
-            SubjectsBTN.TabIndex = 0;
-            SubjectsBTN.Text = "Subjects";
-            SubjectsBTN.UseVisualStyleBackColor = true;
-            SubjectsBTN.UseWaitCursor = true;
+            MMSubjectsBTN.Location = new Point(222, 266);
+            MMSubjectsBTN.Name = "MMSubjectsBTN";
+            MMSubjectsBTN.Size = new Size(190, 41);
+            MMSubjectsBTN.TabIndex = 0;
+            MMSubjectsBTN.Text = "Subjects";
+            MMSubjectsBTN.UseVisualStyleBackColor = true;
+            MMSubjectsBTN.UseWaitCursor = true;
+            MMSubjectsBTN.Click += MMSubjectsBTN_Click;
             // 
             // MainLable
             // 
             MainLable.AutoSize = true;
             MainLable.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            MainLable.Location = new Point(209, 104);
+            MainLable.Location = new Point(205, 45);
             MainLable.Name = "MainLable";
             MainLable.Size = new Size(226, 54);
             MainLable.TabIndex = 1;
@@ -76,15 +81,39 @@
             MainLable.TextAlign = ContentAlignment.TopCenter;
             MainLable.UseWaitCursor = true;
             // 
+            // MMRelationBTN
+            // 
+            MMRelationBTN.Location = new Point(222, 331);
+            MMRelationBTN.Name = "MMRelationBTN";
+            MMRelationBTN.Size = new Size(190, 41);
+            MMRelationBTN.TabIndex = 0;
+            MMRelationBTN.Text = "Relations";
+            MMRelationBTN.UseVisualStyleBackColor = true;
+            MMRelationBTN.UseWaitCursor = true;
+            MMRelationBTN.Click += MMRelationBTN_Click;
+            // 
+            // MMExitBTN
+            // 
+            MMExitBTN.Location = new Point(222, 432);
+            MMExitBTN.Name = "MMExitBTN";
+            MMExitBTN.Size = new Size(190, 41);
+            MMExitBTN.TabIndex = 0;
+            MMExitBTN.Text = "Exit";
+            MMExitBTN.UseVisualStyleBackColor = true;
+            MMExitBTN.UseWaitCursor = true;
+            MMExitBTN.Click += MMExitBTN_Click;
+            // 
             // SystemMM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(657, 550);
+            ClientSize = new Size(643, 550);
             Controls.Add(MainLable);
-            Controls.Add(SubjectsBTN);
-            Controls.Add(StudentsBTN);
-            Controls.Add(TeachersBTN);
+            Controls.Add(MMExitBTN);
+            Controls.Add(MMRelationBTN);
+            Controls.Add(MMSubjectsBTN);
+            Controls.Add(MMStudentsBTN);
+            Controls.Add(MMTeachersBTN);
             Name = "SystemMM";
             Text = "SystemMM";
             UseWaitCursor = true;
@@ -94,9 +123,11 @@
 
         #endregion
 
-        private Button TeachersBTN;
-        private Button StudentsBTN;
-        private Button SubjectsBTN;
+        private Button MMTeachersBTN;
+        private Button MMStudentsBTN;
+        private Button MMSubjectsBTN;
         private Label MainLable;
+        private Button MMRelationBTN;
+        private Button MMExitBTN;
     }
 }

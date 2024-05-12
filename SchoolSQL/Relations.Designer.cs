@@ -28,108 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TGridView = new DataGridView();
+            RStudentBTN = new Button();
+            RTeacherBTN = new Button();
+            RSubjectBTN = new Button();
             RAverageBTN = new Button();
-            RSearchByTeacherBTN = new Button();
-            TReturnBTN = new Button();
-            RSearchBySubjectBTN = new Button();
-            RSearchByStudentBTN = new Button();
-            RSearchText = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)TGridView).BeginInit();
+            button5 = new Button();
+            dataGridView1 = new DataGridView();
+            textBox1 = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // TGridView
+            // RStudentBTN
             // 
-            TGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            TGridView.Location = new Point(3, 207);
-            TGridView.Name = "TGridView";
-            TGridView.Size = new Size(479, 267);
-            TGridView.TabIndex = 37;
+            RStudentBTN.Location = new Point(314, 5);
+            RStudentBTN.Name = "RStudentBTN";
+            RStudentBTN.Size = new Size(129, 39);
+            RStudentBTN.TabIndex = 0;
+            RStudentBTN.Text = "Search By Student";
+            RStudentBTN.UseVisualStyleBackColor = true;
+            // 
+            // RTeacherBTN
+            // 
+            RTeacherBTN.Location = new Point(314, 50);
+            RTeacherBTN.Name = "RTeacherBTN";
+            RTeacherBTN.Size = new Size(129, 39);
+            RTeacherBTN.TabIndex = 0;
+            RTeacherBTN.Text = "Search By Teacher";
+            RTeacherBTN.UseVisualStyleBackColor = true;
+            // 
+            // RSubjectBTN
+            // 
+            RSubjectBTN.Location = new Point(314, 95);
+            RSubjectBTN.Name = "RSubjectBTN";
+            RSubjectBTN.Size = new Size(129, 39);
+            RSubjectBTN.TabIndex = 0;
+            RSubjectBTN.Text = "Search By Subject";
+            RSubjectBTN.UseVisualStyleBackColor = true;
             // 
             // RAverageBTN
             // 
-            RAverageBTN.Location = new Point(315, 152);
+            RAverageBTN.Location = new Point(314, 140);
             RAverageBTN.Name = "RAverageBTN";
-            RAverageBTN.Size = new Size(133, 40);
-            RAverageBTN.TabIndex = 36;
+            RAverageBTN.Size = new Size(129, 39);
+            RAverageBTN.TabIndex = 0;
             RAverageBTN.Text = "Average";
             RAverageBTN.UseVisualStyleBackColor = true;
             // 
-            // RSearchByTeacherBTN
+            // button5
             // 
-            RSearchByTeacherBTN.Location = new Point(315, 108);
-            RSearchByTeacherBTN.Name = "RSearchByTeacherBTN";
-            RSearchByTeacherBTN.Size = new Size(133, 40);
-            RSearchByTeacherBTN.TabIndex = 35;
-            RSearchByTeacherBTN.Text = "Search By Teacher";
-            RSearchByTeacherBTN.UseVisualStyleBackColor = true;
+            button5.Location = new Point(165, 460);
+            button5.Name = "button5";
+            button5.Size = new Size(129, 39);
+            button5.TabIndex = 0;
+            button5.Text = "button1";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
-            // TReturnBTN
+            // dataGridView1
             // 
-            TReturnBTN.Location = new Point(176, 480);
-            TReturnBTN.Name = "TReturnBTN";
-            TReturnBTN.Size = new Size(133, 40);
-            TReturnBTN.TabIndex = 34;
-            TReturnBTN.Text = "Return";
-            TReturnBTN.UseVisualStyleBackColor = true;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(3, 191);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(440, 263);
+            dataGridView1.TabIndex = 1;
             // 
-            // RSearchBySubjectBTN
+            // textBox1
             // 
-            RSearchBySubjectBTN.Location = new Point(315, 66);
-            RSearchBySubjectBTN.Name = "RSearchBySubjectBTN";
-            RSearchBySubjectBTN.Size = new Size(133, 40);
-            RSearchBySubjectBTN.TabIndex = 33;
-            RSearchBySubjectBTN.Text = "Search By Subject";
-            RSearchBySubjectBTN.UseVisualStyleBackColor = true;
-            // 
-            // RSearchByStudentBTN
-            // 
-            RSearchByStudentBTN.Location = new Point(315, 24);
-            RSearchByStudentBTN.Name = "RSearchByStudentBTN";
-            RSearchByStudentBTN.Size = new Size(133, 40);
-            RSearchByStudentBTN.TabIndex = 32;
-            RSearchByStudentBTN.Text = "Search By Student";
-            RSearchByStudentBTN.UseVisualStyleBackColor = true;
-            // 
-            // RSearchText
-            // 
-            RSearchText.Font = new Font("Segoe UI", 16F);
-            RSearchText.Location = new Point(3, 91);
-            RSearchText.Name = "RSearchText";
-            RSearchText.Size = new Size(306, 36);
-            RSearchText.TabIndex = 26;
+            textBox1.Font = new Font("Segoe UI", 16F);
+            textBox1.Location = new Point(14, 73);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(294, 36);
+            textBox1.TabIndex = 2;
             // 
             // Relations
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(TGridView);
+            Controls.Add(textBox1);
+            Controls.Add(dataGridView1);
+            Controls.Add(button5);
             Controls.Add(RAverageBTN);
-            Controls.Add(RSearchByTeacherBTN);
-            Controls.Add(TReturnBTN);
-            Controls.Add(RSearchBySubjectBTN);
-            Controls.Add(RSearchByStudentBTN);
-            Controls.Add(RSearchText);
+            Controls.Add(RSubjectBTN);
+            Controls.Add(RTeacherBTN);
+            Controls.Add(RStudentBTN);
             Name = "Relations";
-            Size = new Size(485, 541);
-            ((System.ComponentModel.ISupportInitialize)TGridView).EndInit();
+            Size = new Size(458, 510);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView TGridView;
+        private Button RStudentBTN;
+        private Button RTeacherBTN;
+        private Button RSubjectBTN;
         private Button RAverageBTN;
-        private Button RSearchByTeacherBTN;
-        private Button TReturnBTN;
-        private Button RSearchBySubjectBTN;
-        private Button RSearchByStudentBTN;
-        private Label label6;
-        private TextBox TSearchText;
-        private TextBox TSubjectIDText;
-        private TextBox TAgeText;
-        private TextBox RSearchText;
-        private TextBox TFirstText;
+        private Button button5;
+        private DataGridView dataGridView1;
+        private TextBox textBox1;
     }
 }

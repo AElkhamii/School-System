@@ -75,6 +75,7 @@
             TReturnBTN.TabIndex = 33;
             TReturnBTN.Text = "Return";
             TReturnBTN.UseVisualStyleBackColor = true;
+            TReturnBTN.Click += TReturnBTN_Click;
             // 
             // SUpdateBTN
             // 

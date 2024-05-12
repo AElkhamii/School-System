@@ -34,6 +34,10 @@
             MainLable = new Label();
             MMRelationBTN = new Button();
             MMExitBTN = new Button();
+            teachers1 = new Teachers();
+            students1 = new Students();
+            subjects1 = new Subjects();
+            relations1 = new Relations();
             SuspendLayout();
             // 
             // MMTeachersBTN
@@ -103,11 +107,47 @@
             MMExitBTN.UseWaitCursor = true;
             MMExitBTN.Click += MMExitBTN_Click;
             // 
+            // teachers1
+            // 
+            teachers1.Location = new Point(58, 2);
+            teachers1.Name = "teachers1";
+            teachers1.Size = new Size(509, 536);
+            teachers1.TabIndex = 2;
+            teachers1.UseWaitCursor = true;
+            // 
+            // students1
+            // 
+            students1.Location = new Point(86, 12);
+            students1.Name = "students1";
+            students1.Size = new Size(469, 518);
+            students1.TabIndex = 3;
+            students1.UseWaitCursor = true;
+            // 
+            // subjects1
+            // 
+            subjects1.Location = new Point(70, 12);
+            subjects1.Name = "subjects1";
+            subjects1.Size = new Size(497, 528);
+            subjects1.TabIndex = 4;
+            subjects1.UseWaitCursor = true;
+            // 
+            // relations1
+            // 
+            relations1.Location = new Point(58, 13);
+            relations1.Name = "relations1";
+            relations1.Size = new Size(485, 527);
+            relations1.TabIndex = 5;
+            relations1.UseWaitCursor = true;
+            // 
             // SystemMM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(643, 550);
+            ClientSize = new Size(597, 550);
+            Controls.Add(relations1);
+            Controls.Add(subjects1);
+            Controls.Add(students1);
+            Controls.Add(teachers1);
             Controls.Add(MainLable);
             Controls.Add(MMExitBTN);
             Controls.Add(MMRelationBTN);
@@ -117,6 +157,7 @@
             Name = "SystemMM";
             Text = "SystemMM";
             UseWaitCursor = true;
+            Load += SystemMM_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -129,5 +170,9 @@
         private Label MainLable;
         private Button MMRelationBTN;
         private Button MMExitBTN;
+        private Teachers teachers1;
+        private Students students1;
+        private Subjects subjects1;
+        private Relations relations1;
     }
 }

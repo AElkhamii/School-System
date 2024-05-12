@@ -16,5 +16,10 @@ namespace SchoolSQL
         {
             InitializeComponent();
         }
+
+        private void TReturnBTN_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

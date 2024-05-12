@@ -83,6 +83,7 @@
             STReturnBTN.TabIndex = 18;
             STReturnBTN.Text = "Return";
             STReturnBTN.UseVisualStyleBackColor = true;
+            STReturnBTN.Click += STReturnBTN_Click;
             // 
             // STUpdateBTN
             // 

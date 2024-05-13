@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            STGridView = new DataGridView();
             STSearchBTN = new Button();
             STDeleteBTN = new Button();
             STReturnBTN = new Button();
@@ -46,16 +46,16 @@
             STAgeText = new TextBox();
             STLastText = new TextBox();
             STFirstText = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)STGridView).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // STGridView
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(13, 263);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(437, 198);
-            dataGridView1.TabIndex = 21;
+            STGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            STGridView.Location = new Point(13, 263);
+            STGridView.Name = "STGridView";
+            STGridView.Size = new Size(437, 198);
+            STGridView.TabIndex = 21;
             // 
             // STSearchBTN
             // 
@@ -65,6 +65,7 @@
             STSearchBTN.TabIndex = 20;
             STSearchBTN.Text = "Search";
             STSearchBTN.UseVisualStyleBackColor = true;
+            STSearchBTN.Click += STSearchBTN_Click;
             // 
             // STDeleteBTN
             // 
@@ -203,7 +204,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(dataGridView1);
+            Controls.Add(STGridView);
             Controls.Add(STSearchBTN);
             Controls.Add(STDeleteBTN);
             Controls.Add(STReturnBTN);
@@ -223,14 +224,14 @@
             Controls.Add(STFirstText);
             Name = "Students";
             Size = new Size(472, 520);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)STGridView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView STGridView;
         private Button STSearchBTN;
         private Button STDeleteBTN;
         private Button STReturnBTN;

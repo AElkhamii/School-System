@@ -8,7 +8,7 @@ namespace SchoolSQL
 {
     internal class Student
     {
-        public int Id { get; set; }
+        public int StudentID { get; set; }
 
         public string FirstName { get; set; } = string.Empty;
 

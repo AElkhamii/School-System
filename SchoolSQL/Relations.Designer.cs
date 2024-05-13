@@ -32,7 +32,7 @@
             RTeacherBTN = new Button();
             RSubjectBTN = new Button();
             RAverageBTN = new Button();
-            button5 = new Button();
+            RReturnBTN = new Button();
             dataGridView1 = new DataGridView();
             textBox1 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -74,15 +74,15 @@
             RAverageBTN.Text = "Average";
             RAverageBTN.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // RReturnBTN
             // 
-            button5.Location = new Point(165, 460);
-            button5.Name = "button5";
-            button5.Size = new Size(129, 39);
-            button5.TabIndex = 0;
-            button5.Text = "button1";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            RReturnBTN.Location = new Point(165, 460);
+            RReturnBTN.Name = "RReturnBTN";
+            RReturnBTN.Size = new Size(129, 39);
+            RReturnBTN.TabIndex = 0;
+            RReturnBTN.Text = "Return";
+            RReturnBTN.UseVisualStyleBackColor = true;
+            RReturnBTN.Click += button5_Click;
             // 
             // dataGridView1
             // 
@@ -106,7 +106,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(textBox1);
             Controls.Add(dataGridView1);
-            Controls.Add(button5);
+            Controls.Add(RReturnBTN);
             Controls.Add(RAverageBTN);
             Controls.Add(RSubjectBTN);
             Controls.Add(RTeacherBTN);
@@ -124,7 +124,7 @@
         private Button RTeacherBTN;
         private Button RSubjectBTN;
         private Button RAverageBTN;
-        private Button button5;
+        private Button RReturnBTN;
         private DataGridView dataGridView1;
         private TextBox textBox1;
     }

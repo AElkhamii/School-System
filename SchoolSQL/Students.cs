@@ -19,6 +19,7 @@ namespace SchoolSQL
 
         private void STReturnBTN_Click(object sender, EventArgs e)
         {
+            /* Return to the main menue */
             this.Hide();
         }
     }

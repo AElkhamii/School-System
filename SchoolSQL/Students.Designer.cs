@@ -78,7 +78,7 @@
             // 
             // STReturnBTN
             // 
-            STReturnBTN.Location = new Point(178, 467);
+            STReturnBTN.Location = new Point(162, 467);
             STReturnBTN.Name = "STReturnBTN";
             STReturnBTN.Size = new Size(133, 40);
             STReturnBTN.TabIndex = 18;
@@ -103,6 +103,7 @@
             STInsertBTN.TabIndex = 16;
             STInsertBTN.Text = "Insert";
             STInsertBTN.UseVisualStyleBackColor = true;
+            STInsertBTN.Click += STInsertBTN_Click;
             // 
             // label5
             // 

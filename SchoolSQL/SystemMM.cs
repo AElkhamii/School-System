@@ -8,6 +8,7 @@ namespace SchoolSQL
             InitializeComponent();
         }
 
+
         /* When loading the main form */
         private void SystemMM_Load(object sender, EventArgs e)
         {
@@ -17,6 +18,7 @@ namespace SchoolSQL
             subjects1.Hide();
             teachers1.Hide();
         }
+
 
         /* Teachers button on click */
         private void MMTeachersBTN_Click(object sender, EventArgs e)
@@ -30,6 +32,7 @@ namespace SchoolSQL
             teachers1.BringToFront();
         }
 
+
         /* Students button on click */
         private void MMStudentsBTN_Click(object sender, EventArgs e)
         {
@@ -41,6 +44,7 @@ namespace SchoolSQL
             students1.Show();
             students1.BringToFront();
         }
+
 
         /* Subjects button on click */
         private void MMSubjectsBTN_Click(object sender, EventArgs e)
@@ -54,6 +58,7 @@ namespace SchoolSQL
             subjects1.BringToFront();
         }
 
+
         /* Relations button on click */
         private void MMRelationBTN_Click(object sender, EventArgs e)
         {
@@ -66,11 +71,15 @@ namespace SchoolSQL
             relations1.BringToFront();
         }
 
+
         /* Exit button on click */
         private void MMExitBTN_Click(object sender, EventArgs e)
         {
-            // Clos the application
-            this.Close();
+            // Clos the application with yes/no message box
+            if (MessageBox.Show("Are you sure, you want to exit", "Exit", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

@@ -56,6 +56,7 @@
             STGridView.Name = "STGridView";
             STGridView.Size = new Size(437, 198);
             STGridView.TabIndex = 21;
+            STGridView.SelectionChanged += STGridView_SelectionChanged;
             // 
             // STSearchBTN
             // 
@@ -75,6 +76,7 @@
             STDeleteBTN.TabIndex = 19;
             STDeleteBTN.Text = "Delete";
             STDeleteBTN.UseVisualStyleBackColor = true;
+            STDeleteBTN.Click += STDeleteBTN_Click;
             // 
             // STReturnBTN
             // 
@@ -94,6 +96,7 @@
             STUpdateBTN.TabIndex = 17;
             STUpdateBTN.Text = "Update";
             STUpdateBTN.UseVisualStyleBackColor = true;
+            STUpdateBTN.Click += STUpdateBTN_Click;
             // 
             // STInsertBTN
             // 

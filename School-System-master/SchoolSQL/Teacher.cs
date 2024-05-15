@@ -8,13 +8,13 @@ namespace SchoolSQL
 {
     internal class Teacher
     {
-        int TeacherID { get; set; }
+        public int Teacherid { get; set; }
 
         public string FirstName { get; set; } = string.Empty;
 
         public string LastName { get; set; } = string.Empty;
 
-        public int age { get; set; }
+        public int Age { get; set; }
 
         public int TeachSubjectID_FK { get; set; }
     }

@@ -54,6 +54,7 @@
             TGridView.Name = "TGridView";
             TGridView.Size = new Size(437, 198);
             TGridView.TabIndex = 21;
+            TGridView.SelectionChanged += TGridView_SelectionChanged;
             // 
             // TSearchBTN
             // 
@@ -63,6 +64,7 @@
             TSearchBTN.TabIndex = 20;
             TSearchBTN.Text = "Search";
             TSearchBTN.UseVisualStyleBackColor = true;
+            TSearchBTN.Click += TSearchBTN_Click;
             // 
             // TDeleteBTN
             // 
@@ -72,6 +74,7 @@
             TDeleteBTN.TabIndex = 19;
             TDeleteBTN.Text = "Delete";
             TDeleteBTN.UseVisualStyleBackColor = true;
+            TDeleteBTN.Click += TDeleteBTN_Click;
             // 
             // TReturnBTN
             // 
@@ -91,6 +94,7 @@
             TUpdateBTN.TabIndex = 17;
             TUpdateBTN.Text = "Update";
             TUpdateBTN.UseVisualStyleBackColor = true;
+            TUpdateBTN.Click += TUpdateBTN_Click;
             // 
             // TInsertBTN
             // 
@@ -100,6 +104,7 @@
             TInsertBTN.TabIndex = 16;
             TInsertBTN.Text = "Insert";
             TInsertBTN.UseVisualStyleBackColor = true;
+            TInsertBTN.Click += TInsertBTN_Click;
             // 
             // label6
             // 

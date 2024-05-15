@@ -12,6 +12,7 @@ namespace SchoolSQL
 {
     public partial class Subjects : UserControl
     {
+        /* Creat a list of subjects to present the result of any operation occures on subjectsDataAccess calss */
         List<Subject> subjects = new List<Subject>();
 
         public Subjects()
@@ -28,6 +29,8 @@ namespace SchoolSQL
             SGridView.DataSource = subjects;
 
         }
+
+
 
         /******** Return button ********/
         private void TReturnBTN_Click(object sender, EventArgs e)
@@ -47,6 +50,8 @@ namespace SchoolSQL
             SGridView.DataSource = subjects;
         }
 
+
+
         /******** Search button ********/
         private void SSearchBTN_Click(object sender, EventArgs e)
         {
@@ -59,6 +64,8 @@ namespace SchoolSQL
             /* Show the data on the grid view */
             SGridView.DataSource = subjects;
         }
+
+
 
         /******** Insert button ********/
         private void SInsertBTN_Click(object sender, EventArgs e)
@@ -79,6 +86,9 @@ namespace SchoolSQL
             SNameText.Clear();
         }
 
+
+
+
         /******** Delete button ********/
         private void SDeleteBTN_Click(object sender, EventArgs e)
         {
@@ -98,12 +108,16 @@ namespace SchoolSQL
             SNameText.Clear();
         }
 
+
+
+
+        /******** Update button ********/
         private void SUpdateBTN_Click(object sender, EventArgs e)
         {
             /* Creat an instance of Subject Data Access */
             SubjectsDataAcess subjectsDataAcess = new SubjectsDataAcess();
 
-            /* Delete Selected Subject from grid view Subject */
+            /* Update Selected Subject from grid view Subject */
             subjectsDataAcess.UpdateSubjectInfo(SGridView.CurrentRow.Cells[0].Value.ToString(), SNameText.Text);
 
             /* Get all avilable data in the table */

@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\studentsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\studentsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\subjectsdataacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\subjectsdataacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\systemmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\systemmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|c:\\users\\abdelrahman\\onedrive\\desktop\\embedded\\c#\\schoolsql\\schoolsql\\subject_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8683B4DE-51F9-4240-AD2F-F3D02DA85BCA}|SchoolSQL\\SchoolSQL.csproj|solutionrelative:schoolsql\\subject_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subject_1.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subject_1.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\Subject_1.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subject_1.cs",
+              "RelativeToolTip": "SchoolSQL\\Subject_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:47:53.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subjects.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subjects.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\Subjects.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subjects.cs",
+              "RelativeToolTip": "SchoolSQL\\Subjects.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:20:10.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subjects.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subjects.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\Subjects.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subjects.cs [Design]",
+              "RelativeToolTip": "SchoolSQL\\Subjects.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:19:37.067Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubjectsDataAcess.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\SubjectsDataAcess.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\SubjectsDataAcess.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\SubjectsDataAcess.cs",
+              "RelativeToolTip": "SchoolSQL\\SubjectsDataAcess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:19:36.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subject.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\Subject.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Subject.cs",
+              "RelativeToolTip": "SchoolSQL\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:19:28.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SystemMM.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\SystemMM.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\SystemMM.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\SystemMM.cs",
+              "RelativeToolTip": "SchoolSQL\\SystemMM.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:28:16.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\StudentsDataAccess.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\StudentsDataAccess.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\StudentsDataAccess.cs",
+              "RelativeToolTip": "SchoolSQL\\StudentsDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:52:42.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Students.cs",
+              "RelativeDocumentMoniker": "SchoolSQL\\Students.cs",
+              "ToolTip": "C:\\Users\\Abdelrahman\\OneDrive\\Desktop\\Embedded\\C#\\SchoolSQL\\SchoolSQL\\Students.cs",
+              "RelativeToolTip": "SchoolSQL\\Students.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:40:56.268Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

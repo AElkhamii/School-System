@@ -11,6 +11,18 @@ namespace SchoolSQL
 {
     internal class StudentsDataAccess
     {
+        /* Method to return all avilable students */
+        public List<Student> AvilableStudents()
+        {
+            /* Open SQL connection by creat new connection with the connection string (SchoolSystemDB) that you crated in App.config */
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("SchoolSystemDB")))
+            {
+                /* Ask the SchoolSystemDB for a query to get back all avilable student data type and set the result to a list of student (.ToList()) to return with the result list that will be displaied on gridview  */
+                return connection.Query<Student>($"SELECT * FROM Students ").ToList();
+            }
+        }
+
+
         /* Method to return the search value from student table */
         public  List<Student> GetStudents(string SearchValue)
         {
@@ -18,7 +30,7 @@ namespace SchoolSQL
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("SchoolSystemDB")))
             {
                 /* Ask the SchoolSystemDB for a query to get a data back student data type and set the result to a list of student (.ToList()) to return with the result list that will be displaied on gridview  */
-                return connection.Query<Student>($"SELECT * FROM Students WHERE (FirstName LIKE '%{SearchValue}%' OR LastName LIKE '%{SearchValue}%' OR StudentID LIKE'%{SearchValue}%')").ToList();
+                return connection.Query<Student>($"SELECT * FROM Students WHERE (FirstName LIKE '%{SearchValue}%' OR LastName LIKE '%{SearchValue}%' OR StudentID LIKE '%{SearchValue}%')").ToList();
             }
         }
 

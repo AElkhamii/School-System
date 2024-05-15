@@ -57,6 +57,7 @@
             SSearchBTN.TabIndex = 35;
             SSearchBTN.Text = "Search";
             SSearchBTN.UseVisualStyleBackColor = true;
+            SSearchBTN.Click += SSearchBTN_Click;
             // 
             // SDeleteBTN
             // 
@@ -66,6 +67,7 @@
             SDeleteBTN.TabIndex = 34;
             SDeleteBTN.Text = "Delete";
             SDeleteBTN.UseVisualStyleBackColor = true;
+            SDeleteBTN.Click += SDeleteBTN_Click;
             // 
             // TReturnBTN
             // 
@@ -85,6 +87,7 @@
             SUpdateBTN.TabIndex = 32;
             SUpdateBTN.Text = "Update";
             SUpdateBTN.UseVisualStyleBackColor = true;
+            SUpdateBTN.Click += SUpdateBTN_Click;
             // 
             // SInsertBTN
             // 
@@ -94,6 +97,7 @@
             SInsertBTN.TabIndex = 31;
             SInsertBTN.Text = "Insert";
             SInsertBTN.UseVisualStyleBackColor = true;
+            SInsertBTN.Click += SInsertBTN_Click;
             // 
             // label6
             // 

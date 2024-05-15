@@ -20,7 +20,14 @@ namespace SchoolSQL
         public Students()
         {
             InitializeComponent();
-            /* Initiate student grid view with empty table of students */
+
+            /* Creat ana instance of studentsDataAccess */
+            StudentsDataAccess studentsDataAccess = new StudentsDataAccess();
+
+            /* Get the avilable students in the students table and recive it in a list of students */
+            students = studentsDataAccess.AvilableStudents();
+
+            /* Initiate student grid view with a table of students */
             STGridView.DataSource = students;
         }
 
@@ -35,6 +42,13 @@ namespace SchoolSQL
             /* Insert new student */
             studentsDataAccess.InsertStudent(STFirstText.Text, STLastText.Text, STAgeText.Text, STGenderText.Text, STYearText.Text);
 
+            /* Get the avilable students in the students table and recive it in a list of students */
+            students = studentsDataAccess.AvilableStudents();
+
+            /* Show result on Studnt Grid view */
+            STGridView.DataSource = students;
+
+            /* Clear values inide text box */
             STFirstText.Clear();
             STLastText.Clear();
             STAgeText.Clear();
@@ -53,7 +67,10 @@ namespace SchoolSQL
             /* Delete Student From the table */
             studentsDataAccess.DeleteStudent(STGridView.CurrentRow.Cells[0].Value.ToString());
 
-            /* Show the search result on Studnt Grid view */
+            /* Get the avilable students in the students table and recive it in a list of students */
+            students = studentsDataAccess.AvilableStudents();
+
+            /* Show result on Studnt Grid view */
             STGridView.DataSource = students;
         }
 
@@ -68,7 +85,10 @@ namespace SchoolSQL
             /* Update student INFO */
             studentsDataAccess.UpdateStudentInfo(STGridView.CurrentRow.Cells[0].Value.ToString(), STFirstText.Text, STLastText.Text, STAgeText.Text, STGenderText.Text, STYearText.Text);
 
-            /* Show the search result on Studnt Grid view */
+            /* Get the avilable students in the students table and recive it in a list of students */
+            students = studentsDataAccess.AvilableStudents();
+
+            /* Show result on Studnt Grid view */
             STGridView.DataSource = students;
         }
 
@@ -83,7 +103,7 @@ namespace SchoolSQL
             /* Get the search result and recive it in an list of students */
             students = studentsDataAccess.GetStudents(STSearchText.Text);
 
-            /* Show the search result on Studnt Grid view */
+            /* Show result on Studnt Grid view */
             STGridView.DataSource = students;
         }
 
@@ -95,19 +115,29 @@ namespace SchoolSQL
             /* Return to the main menue */
             this.Hide();
             STSearchText.Clear();
+
+            /* Creat ana instance of studentsDataAccess */
+            StudentsDataAccess studentsDataAccess = new StudentsDataAccess();
+
+            /* Get the avilable students in the students table and recive it in a list of students */
+            students = studentsDataAccess.AvilableStudents();
+
+            /* Show result on Studnt Grid view */
             STGridView.DataSource = students;
 
         }
 
 
-
+        /* Present selected Row Info on the text */
         private void STGridView_SelectionChanged(object sender, EventArgs e)
         {
+            
             STFirstText.Text = STGridView.CurrentRow.Cells[1].Value.ToString();
             STLastText.Text = STGridView.CurrentRow.Cells[2].Value.ToString();
             STAgeText.Text = STGridView.CurrentRow.Cells[3].Value.ToString();
             STGenderText.Text = STGridView.CurrentRow.Cells[4].Value.ToString();
             STYearText.Text = STGridView.CurrentRow.Cells[5].Value.ToString();
+            
         }
     }
 }

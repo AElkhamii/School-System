@@ -33,9 +33,9 @@
             RSubjectBTN = new Button();
             RAverageBTN = new Button();
             RReturnBTN = new Button();
-            dataGridView1 = new DataGridView();
-            textBox1 = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            RGridView = new DataGridView();
+            RSearchText = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)RGridView).BeginInit();
             SuspendLayout();
             // 
             // RStudentBTN
@@ -46,6 +46,7 @@
             RStudentBTN.TabIndex = 0;
             RStudentBTN.Text = "Search By Student";
             RStudentBTN.UseVisualStyleBackColor = true;
+            RStudentBTN.Click += RStudentBTN_Click;
             // 
             // RTeacherBTN
             // 
@@ -55,6 +56,7 @@
             RTeacherBTN.TabIndex = 0;
             RTeacherBTN.Text = "Search By Teacher";
             RTeacherBTN.UseVisualStyleBackColor = true;
+            RTeacherBTN.Click += RTeacherBTN_Click;
             // 
             // RSubjectBTN
             // 
@@ -64,6 +66,7 @@
             RSubjectBTN.TabIndex = 0;
             RSubjectBTN.Text = "Search By Subject";
             RSubjectBTN.UseVisualStyleBackColor = true;
+            RSubjectBTN.Click += RSubjectBTN_Click;
             // 
             // RAverageBTN
             // 
@@ -73,6 +76,7 @@
             RAverageBTN.TabIndex = 0;
             RAverageBTN.Text = "Average";
             RAverageBTN.UseVisualStyleBackColor = true;
+            RAverageBTN.Click += RAverageBTN_Click;
             // 
             // RReturnBTN
             // 
@@ -82,30 +86,30 @@
             RReturnBTN.TabIndex = 0;
             RReturnBTN.Text = "Return";
             RReturnBTN.UseVisualStyleBackColor = true;
-            RReturnBTN.Click += button5_Click;
+            RReturnBTN.Click += Button5_Click;
             // 
-            // dataGridView1
+            // RGridView
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(3, 191);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(440, 263);
-            dataGridView1.TabIndex = 1;
+            RGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            RGridView.Location = new Point(3, 191);
+            RGridView.Name = "RGridView";
+            RGridView.Size = new Size(452, 263);
+            RGridView.TabIndex = 1;
             // 
-            // textBox1
+            // RSearchText
             // 
-            textBox1.Font = new Font("Segoe UI", 16F);
-            textBox1.Location = new Point(14, 73);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(294, 36);
-            textBox1.TabIndex = 2;
+            RSearchText.Font = new Font("Segoe UI", 16F);
+            RSearchText.Location = new Point(14, 73);
+            RSearchText.Name = "RSearchText";
+            RSearchText.Size = new Size(294, 36);
+            RSearchText.TabIndex = 2;
             // 
             // Relations
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(textBox1);
-            Controls.Add(dataGridView1);
+            Controls.Add(RSearchText);
+            Controls.Add(RGridView);
             Controls.Add(RReturnBTN);
             Controls.Add(RAverageBTN);
             Controls.Add(RSubjectBTN);
@@ -113,7 +117,7 @@
             Controls.Add(RStudentBTN);
             Name = "Relations";
             Size = new Size(458, 510);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)RGridView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -125,7 +129,7 @@
         private Button RSubjectBTN;
         private Button RAverageBTN;
         private Button RReturnBTN;
-        private DataGridView dataGridView1;
-        private TextBox textBox1;
+        private DataGridView RGridView;
+        private TextBox RSearchText;
     }
 }
